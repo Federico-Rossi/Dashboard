@@ -1,0 +1,76 @@
+/* Definisci lo stile generale della dashboard */
+body {
+    font-family: Josefin Sans;
+    margin: 0;
+    padding: 0;
+    background-color: #7CE7FF;
+}
+
+/* Definisci il layout a griglia per la dashboard */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 80px auto 100px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    width: 100%;
+    height: 100vh;
+}
+
+/* Definisci lo stile per l'header */
+header {
+    grid-area: header;
+    background-color: #188198;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 28px;
+}
+
+/* Definisci lo stile per il main */
+main {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Definisci lo stile per il footer */
+footer {
+    grid-area: footer;
+    background-color: #188198;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    color: white;
+    font-size: 15px;
+}
+
+/* Definisci lo stile per i pulsanti */
+button {
+    background-color: #188198;
+    font-family: Josefin Sans;
+    color: white;   
+    border-radius: 0.6rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 0.4rem;
+}
