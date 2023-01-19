@@ -25,6 +25,7 @@ header {
     font-size: 28px;
 }
 
+
 main {
     grid-area: main;
     display: flex;
@@ -56,11 +57,15 @@ button {
     display: inline-block;
     font-size: 26px;
     margin: 4px 30px;
-    width: 250px; /*imposta la larghezza*/
-    height: 100px; /*imposta l'altezza*/
-    box-sizing: border-box; /*includi le dimensioni del bordo e della padding nella dimensione del bottone*/
+    width: 250px;
+    height: 100px; 
+    box-sizing: border-box; 
     cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
 
+button:hover {
+    background-color: #1bb1e7;
 }
 
 .logo {
