@@ -58,8 +58,8 @@ button {
     font-size: 26px;
     margin: 4px 30px;
     width: 250px;
-    height: 100px; 
-    box-sizing: border-box; 
+    height: 100px;
+    box-sizing: border-box;
     cursor: pointer;
     transition: background-color 0.2s ease-in;
 }
