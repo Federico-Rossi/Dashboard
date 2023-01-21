@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* Path: res\styles.css */
+
+/**     HTML Elements      **/
+* { /* Everything */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body { /* The Body */
+    background-image: url("backgrounds/pixzolo-photography-3tL4vtrFqTQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/**     Main Classes     **/
+.root { /* The Root Container */
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(24, 129, 152, 0.200);
+}
+
+.logo-img { /* Paninosoft Logo */
+    background-image: url("logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+}
+
+.footer { /* Footer */
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #0c4653;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-container { /* Form Container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 320px;
+    height: 250px;
+    top: 25%;
+    left: 50%;
+    margin-left: -160px; /* Negative half of width. */
+}
+
+.slider-box { /* Slider Box */
+    width: 100%;
+    background-color: rgba(196, 240, 249, 1);
+    padding: 20px;
+    margin: 15px;
+    box-shadow: black 0px 1px 4px;
+}
+.slider-box h1 { /* Slider Box Titles */
+    line-height: 0;
+}
+
+.splide__slide { /* Slider Slides */
+    padding: 10px;
+}
+
+.form-input-text { /* Text Inputs */
+    background-color: transparent;
+    width: 88%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: solid 1px #188198;
+}
+
+.form-submit { /* Submit Button Container */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-forward-button { /* Submit Button */
+    color: white;
+    background-color: #0C4653;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.form-back-button { /* Submit Button */
+    color: #188198;
+    background-color: transparent;
+    border-color: #0C4653;
+    border-radius: 5px;
+    border: solid 1px;
+    padding: 10px;
+}
+
+/**     Text Classes     **/
+.footer, .footer a { /* Footer text... */
+    color: white;
+}
+.slider-box a, p, h1, .text-input { /* ...anything else. */
+    color: #188198;
+}
+.input-error-text { /* Error Text */
+    color: red;
+}
